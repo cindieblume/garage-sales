@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-color: #f8f9fa;
+}
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-title {
+    color: #007bff;
+}
+.container {
+    max-width: 600px;
+
+}
+
+.additional-images {
+    max-width: 100%; /* Ajusta el tamaño de las imágenes */
+    display: block; /* Elimina el espacio extra alrededor de las imágenes */
+    margin-top: 10px; /* Espacio entre las imágenes */
+    height: 100px;
+    object-fit: cover;
+    display: flex;
+    gap: 10px;
+} 
